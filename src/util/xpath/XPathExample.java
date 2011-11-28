@@ -2,6 +2,7 @@ package util.xpath;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -16,6 +17,8 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
+
+import com.boc.itm.utils.SoapApi;
 
 import ch.qos.logback.classic.Logger;
 
@@ -61,7 +64,9 @@ public class XPathExample {
 			
 			builder = factory.newDocumentBuilder();
 			//System.out.println(strXML);
-			Document doc = builder.parse("src/xpath/inputfile.xml");
+//			Document doc = builder.parse("src/xpath/inputfile.xml");
+			InputStream in = Thread.currentThread().getContextClassLoader().getResourceAsStream("util/xpath/inputfile.xml");
+			Document doc = builder.parse(in);
 			
 			//Document doc = builder.parse(new InputSource(new ByteArrayInputStream(strXML.getBytes())));
 			
