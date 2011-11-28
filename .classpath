@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0_03"/>
+	<classpathentry kind="lib" path="lib/gson-1.7.1.jar" sourcepath="D:/Labs/google-gson-1.7.1/gson-1.7.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/D:/Labs/google-gson-1.7.1/gson-1.7.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jersey/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/jersey/jackson-core-asl-1.8.3.jar"/>
+	<classpathentry kind="lib" path="lib/jersey/jackson-jaxrs-1.8.3.jar"/>
+	<classpathentry kind="lib" path="lib/jersey/jackson-mapper-asl-1.8.3.jar"/>
+	<classpathentry kind="lib" path="lib/jersey/jackson-xc-1.8.3.jar"/>
+	<classpathentry kind="lib" path="lib/jersey/jersey-client-1.9.jar"/>
+	<classpathentry kind="lib" path="lib/jersey/jersey-core-1.9.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/D:/Labs/jersey/jersey-archive-1.9/apidocs/jersey/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jersey/jersey-json-1.9.jar"/>
+	<classpathentry kind="lib" path="lib/jersey/jersey-server-1.9.jar"/>
+	<classpathentry kind="lib" path="lib/jersey/jettison-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jersey/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/TSAMPortal/WebContent/WEB-INF/lib/logback-access-0.9.29.jar"/>
+	<classpathentry kind="lib" path="/TSAMPortal/WebContent/WEB-INF/lib/logback-classic-0.9.29.jar"/>
+	<classpathentry kind="lib" path="/TSAMPortal/WebContent/WEB-INF/lib/logback-core-0.9.29.jar"/>
+	<classpathentry kind="lib" path="/TSAMPortal/WebContent/WEB-INF/lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TSAMPortal"/>
+	<classpathentry kind="lib" path="/TSAMPortal/WebContent/WEB-INF/lib/commons-io-1.4.jar" sourcepath="D:/Labs/Apche/commons-io-1.4-src/src/java"/>
+	<classpathentry kind="lib" path="/TSAMPortal/WebContent/WEB-INF/lib/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-httpclient-3.1-rc1.jar" sourcepath="D:/Labs/Apche/commons-httpclient-3.1-rc1/src/java"/>
+	<classpathentry kind="lib" path="D:/Labs/Apche/HttpClient 4.1/httpcomponents-client-4.1.1/lib/httpclient-4.1.1.jar" sourcepath="d:/Labs/Apche/HttpClient 4.1/httpcomponents-client-4.1.1-src/httpcomponents-client-4.1.1/httpclient/"/>
+	<classpathentry kind="lib" path="D:/Labs/Apche/HttpClient 4.1/httpcomponents-client-4.1.1/lib/httpcore-4.1.jar" sourcepath="D:/Labs/Apche/HttpClient 4.1/httpcomponents-core-4.1.1/httpcore"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
